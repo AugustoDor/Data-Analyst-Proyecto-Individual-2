@@ -77,23 +77,39 @@ Una vez finalizado este proceso fueron guardados con formato parquet y csv.
 Para el EDA se genera una archivo combinado de los 2 archivos anteriormente transformados.
 Este archivo combinado es utilizado para iniciar el estudio EDA, teniendo como `objetivo específico encontrar "correlaciones efectivas" entre las variables de interés para el estudio`.
 
-**1. Visualización de Datos Geoespaciales** ---> visualizar en un mapa los siniestros viales registrados en los archivos fuentes.
+**1. Visualización de Datos Geoespaciales**
+![geoespacial.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/geoespacial.png)
 
-**2. Ejercicio de filtración para aprovechamientode variables de interés**
+**2. Tratamiento de Variables de interés**
 
-**3. Tratamiento de Variables de interés**
-* 3.1 Tratamiento de valores pérdidos | nulos | vacíos | duplicados
+* Victimas por año.
+![victimas_año.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/victimas_año.png)
 
-* 3.2 Tratamiento de valores atípicos (outliers)
+* Victimas por hora.
+![victimas_hora.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/victimas_hora.png)
 
-* 3.3 Visualización de variables categóricas. Ver
+* Victimas por mes.
+![victimas_mes.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/victimas_mes.png)
 
-* 3.4 Visualización Histográfica
+* Victimas por día de la semana.
+![victimas_dia.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/victimas_dia.png)
 
-* 3.5 Matriz de Correlaciones
+* Victimas por tipo de vehículo.
+![victimas_vehiculo.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/victimas_vehiculo.png)
 
+* Victimas por tipo de vehículo para cada año.
+![victimas_año_vehiculo.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/victimas_año_vehiculo.png)
 
-**4. Conclusiones EDA - Correlaciones**
+* Vicitmas por tipo de calle.
+![victimas_calle.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/victimas_calle.png)
+
+* Variables faltantes.
+![variables_faltantes.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/variables_faltantes.png)
+
+* Matriz de Correlaciones
+![correlacion.png](https://github.com/AugustoDor/Data-Analyst-Proyecto-Individual-2/raw/main/EDA/correlacion.png)
+
+**3. Conclusiones EDA - Correlaciones**
 
 * **Sobre información inválida o pérdida (missing):**
 Únicamente fueron encontrados errores simples en datos aislados de las variables de interés: 'hora', 'latitud' y 'longitud'. Todos superados sin incidencia alguna en el análisis EDA.
